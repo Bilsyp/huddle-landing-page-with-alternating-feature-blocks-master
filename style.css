@@ -1,0 +1,48 @@
+:root{
+    --Very-Pale-Cyan: hsl(193, 100%, 96%);
+--Very-Dark-Cyan: hsl(192, 100%, 9%);
+--Grayish-Blue: hsl(208, 11%, 55%);
+}
+@import url('https://fonts.google.com/specimen/Poppins');
+@import url('https://fonts.google.com/specimen/Open+Sans');
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    background:url("./images/bg-hero-mobile.svg") repeat, var(--Very-Pale-Cyan);
+    background-size: cover;
+    background-position: center;
+
+}
+h1{
+    font-family: 'Poppins',sans-serif;
+}
+.open-sans{
+    font-family: 'Open Sans',sans-serif;
+}
+.card{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 4rem 0;
+}
+.cards{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.boxs{
+    /* height: 300px; */
+    /* background: #000; */
+    /* position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 50px; */
+}
+li{
+    margin: 20px 0;
+}
+.as{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: 1px solid white;
+}
